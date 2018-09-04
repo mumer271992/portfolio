@@ -1,0 +1,267 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+h3{
+  font-size: 1.2rem;
+}
+
+p{
+  line-height: 28px;
+}
+
+/*
+  Utility styling goes here
+*/
+.container{
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.m-a{
+  margin: auto;
+}
+.t-c{
+  text-align: center;
+}
+.d-flex{
+  display: flex;
+}
+.flex-direction-row{
+  flex-direction: row;
+}
+.justify-space-between{
+  justify-content: space-between;
+}
+.justify-start{
+  justify-content: flex-start;
+}
+.align-items-middle{
+  align-items: center;;
+}
+/*#####################################################################################
+#####################################################################################*/
+
+/*
+  Hero Sections Styling goes here
+*/
+.hero-area{
+  height: 100vh;
+  min-height: 750px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #000;
+  color: #fff;
+}
+.hero-area:after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -443px;
+  z-index: -1;
+  height: 500px;
+  width: 3000px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+.hero-area .hero-content h1, .hero-area .hero-content h3{
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}
+.hero-area .hero-content .hero-img img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 40px;
+  position: relative;
+  border: 2px solid #fff;
+}
+.hero-area .hero-content ul {
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
+.hero-area .hero-content ul:before {
+  content: '';
+  width: 100px;
+  height: 2px;
+  display: inline-block;
+  margin-bottom: 4px;
+  background: #fff;
+}
+.hero-area .hero-content ul:after {
+  content: '';
+  width: 100px;
+  height: 2px;
+  display: inline-block;
+  margin-bottom: 4px;
+  background: #fff;
+}
+.hero-area .hero-content ul li {
+  margin: 0px 8px;
+  display: inline-block;
+}
+.hero-area .hero-content .scrol-arrow{
+  margin-top: 1rem;
+  animation: jumpy 1s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes jumpy {
+  0% {
+    transform: translateY(0);    
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
+
+/*
+  About Sections Styling goes here
+*/
+
+.about-area{
+  max-width: 40%;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.about-area .desc{
+  
+}
+.about-area .desc .contact-info .email, .about-area .desc .contact-info .skype, .about-area .desc .contact-info .phone{
+  padding: 0.5rem 0;
+  border-bottom: 2px solid;
+}
+.about-area .skills{
+  width: 45%;
+}
+.about-area .skills .skill{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+  background-color: #ffffff;
+  border: 2px solid #808080;
+  border-radius: 0px;
+}
+.about-area .skills .skill div{
+  padding: 0.5rem 0.5rem;
+  color: #fff;
+}
+.about-area .skills .skill .name{
+  background-color: #808080;
+  color: #fff;
+}
+.about-area .skills .skill .percentage{
+  background-color: #fff;
+  color: #808080;
+}
+.about-area button.download_CV_button{
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1.2rem 2rem;
+  background: #fff;
+  box-shadow: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+.about-area button.download_CV_button:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+/*
+  Skills Sections Styling goes here
+*/
+.skills-area{
+
+}
+.skills-area .skill-caregory{
+  width: 10%;
+  padding: 0 5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.skills-area .skills{
+  width: 70%;
+}
+.skills-area .skills .skill{
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0.5rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.portfolio-area{
+
+}
+.contact-area{
+  width: 40%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+.contact-area .form-item{
+  margin: 0.5rem 0;
+}
+.contact-area .form-item input, .contact-area .form-item textarea{
+  width: 100%;
+  padding: 0.5rem 0.2rem;
+  border: 0px;
+  border-bottom: 1px solid #dddddd;
+}
+.contact-area .form-item input:focus, .contact-area .form-item textarea:focus,
+.contact-area .form-item input:hover, .contact-area .form-item textarea:hover{
+  outline: none;
+}
+.contact-area form .send-message{
+/*  background: #f6f2ef;
+  color: #000;
+  border: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 15px 25px;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+  letter-spacing: 1px;*/
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1.2rem 2rem;
+  background: #fff;
+  box-shadow: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact-area form .send-message:hover{
+  background-color: #000;
+  color: #fff;
+}
