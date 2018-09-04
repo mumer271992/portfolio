@@ -58,6 +58,37 @@ p{
 /*#####################################################################################
 #####################################################################################*/
 
+
+.header-area{
+  background: #000000;
+  color: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 998;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.sticky-menu{
+  opacity: 1;
+  visibility: visible;
+}
+.header-area div span {
+  line-height: 18px;
+  padding: 1rem 0;
+  margin: 1rem 2rem;
+  font-size: 17px;
+}
+.header-area .main-menu{
+  padding: 2rem 0;
+}
+.header-area .logo{
+  font-size: 1.5rem;
+}
 /*
   Hero Sections Styling goes here
 */
@@ -206,7 +237,6 @@ p{
 }
 .skills-area .skill-caregory{
   width: 10%;
-  padding: 0 5rem;
   font-size: 1.5rem;
   font-weight: 400;
 }
