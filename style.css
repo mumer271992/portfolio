@@ -82,12 +82,14 @@ p{
   padding: 1rem 0;
   margin: 1rem 2rem;
   font-size: 17px;
+  cursor: pointer;
 }
 .header-area .main-menu{
   padding: 2rem 0;
 }
 .header-area .logo{
   font-size: 1.5rem;
+  cursor: pointer;
 }
 /*
   Hero Sections Styling goes here
@@ -176,16 +178,13 @@ p{
 */
 
 .about-area{
-  max-width: 40%;
-  margin: auto;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  text-align: center;
 }
-.about-area .desc{
-  
+.about-area .desc, .about-area .contact-info{
+  width: 45%;
 }
-.about-area .desc .contact-info .email, .about-area .desc .contact-info .skype, .about-area .desc .contact-info .phone{
+.about-area .contact-info .email, .about-area .contact-info .skype, .about-area .contact-info .phone{
   padding: 0.5rem 0;
   border-bottom: 2px solid;
 }
