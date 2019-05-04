@@ -5,46 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Muhammad Umer</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"> -->
     <link rel="stylesheet" type="text/css" href="./style.css">
   </head>
   <body>
-    <div class="header-area" id="header">
-      <div class="container">
-        <div class="d-flex flex-direction-row justify-space-between align-items-middle">
-          <div class="logo">Umer</div>
-          <div class="main-menu">
-            <span>Home</span>
-            <span>About</span>
-            <span>Skills</span>
-            <span>Portfolio</span>
-            <span>Contact</span>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="top-decoration"></div>
     <section id="home" class="hero-area">
       <div class="container">
         <div class="hero-content m-a">
-          <div class="hero-img">
-            <img src="./umer-101.png">
-          </div>
-          <h1>Hello, I am Muhammad Umer</h1>
-          <h3>Web Developer</h3>
-          <ul>
-            <li><i class="fab fa-facebook-f"></i></li>
-            <li><i class="fab fa-twitter"></i></li>
-            <li><i class="fab fa-linkedin-in"></i></li>
-            <li><i class="fab fa-github"></i></li>
-          </ul>
-          <div><small>SCROLL DOWN</small></div>
-          <div class="scrol-arrow"><i class="fas fa-arrow-down"></i></div>
+          <h1>Muhammad Umer</h1>
+          <div class="centered line"></div>
+          <h3>Frontend Developer</h3>
         </div>
       </div>
     </section>
+    <div class="header-area" id="header">
+      <div class="container">
+        <div class="d-flex flex-direction-row justify-space-between align-items-middle">
+          <div data-target-id="about" id="about-item">About Me</div>
+          <div data-target-id="skills" id="skills-item">Skills</div>
+          <div data-target-id="work" id="work-item">Experience</div>
+          <div data-target-id="education" id="education-item">Education</div>
+          <div data-target-id="portfolio" id="portfolio-item">Portfolio</div>
+          <div data-target-id="contact" id="contact-item">Contact</div>
+        </div>
+      </div>
+    </div>
     <section id="about" class="about-area">
       <div class="container">
-        <h1>A few words about me</h1>
+        <h1 class="t-c">About Me</h1>
+        <div class="centered line"></div>
+        <h4 class="">A few words about me</h4>
         <div class="d-flex flex-direction-row justify-space-between">
           <div class="desc">
             <p>Passionate Web developer having 3 years of experience in development of web applications using popular javascript technologies like ReactJs, VueJs and Angular. I have developed responsive web applications in domains of socail media, digital marketing and blockchain.</p>
@@ -69,86 +60,248 @@
     </section>
     <section id="skills" class="skills-area">
       <div class="container">
-        <h1 class="t-c">Skills</h1>
-        <div class="d-flex flex-direction-row justify-start">
-          <div class="skill-caregory"> Frontend </div>
-          <div class="skills">
-            <span class="skill">HTML5</span>
-            <span class="skill">CSS3</span>
-            <span class="skill">Saas/Less</span>
-            <span class="skill">Javascript</span>
-            <span class="skill">Typescript</span>
-            <span class="skill">jQuery</span>
-            <span class="skill">Angular</span>
-            <span class="skill">ReactJs</span>
-            <span class="skill">VueJs</span>
-            <span class="skill">Ionic framwork</span>
-            <span class="skill">Bootstrap</span>
-            <span class="skill">Element UI</span>
-            <span class="skill">Semantic UI</span>
+        <h1 class="t-c">Technical Skills</h1>
+        <div class="centered line"></div>
+        <div style="width: 80%; margin: auto;margin-top: 5rem;">
+          <div class="d-flex flex-direction-row justify-start">
+            <div class="skill-caregory"> Frontend </div>
+            <div class="skills">
+              <span class="skill">HTML5</span>
+              <span class="skill">CSS3</span>
+              <span class="skill">Saas/Less</span>
+              <span class="skill">Javascript</span>
+              <span class="skill">Typescript</span>
+              <span class="skill">jQuery</span>
+              <span class="skill">Angular</span>
+              <span class="skill">ReactJs</span>
+              <span class="skill">VueJs</span>
+              <span class="skill">Ionic framwork</span>
+              <span class="skill">Bootstrap</span>
+              <span class="skill">Element UI</span>
+              <span class="skill">Semantic UI</span>
+            </div>
           </div>
-        </div>
-        <div class="d-flex flex-direction-row justify-start">
-          <div class="skill-caregory"> Backend </div>
-          <div class="skills">
-            <span class="skill">Laravel/Lumen</span>
-            <span class="skill">NodeJs</span>
-            <span class="skill">ExpressJs</span>
-            <span class="skill">MySql</span>
-            <span class="skill">MongoDB</span>
+          <div class="d-flex flex-direction-row justify-start">
+            <div class="skill-caregory"> Backend </div>
+            <div class="skills">
+              <span class="skill">Laravel/Lumen</span>
+              <span class="skill">NodeJs</span>
+              <span class="skill">ExpressJs</span>
+              <span class="skill">MySql</span>
+              <span class="skill">MongoDB</span>
+            </div>
           </div>
-        </div>
-        <div class="d-flex flex-direction-row justify-start">
-          <div class="skill-caregory"> BuildTools </div>
-          <div class="skills" >
-            <span class="skill">Webpack</span>
-            <span class="skill">Gulp</span>
+          <div class="d-flex flex-direction-row justify-start">
+            <div class="skill-caregory"> BuildTools </div>
+            <div class="skills" >
+              <span class="skill">Webpack</span>
+              <span class="skill">Gulp</span>
+            </div>
           </div>
-        </div>
-        <div class="d-flex flex-direction-row justify-start">
-          <div class="skill-caregory"> DevOps </div>
-          <div class="skills">
-            <span class="skill">Production Server management</span>
-            <span class="skill">DeployHQ</span>
-            <span class="skill">Heroku</span>
+          <div class="d-flex flex-direction-row justify-start">
+            <div class="skill-caregory"> DevOps </div>
+            <div class="skills">
+              <span class="skill">Production Server management</span>
+              <span class="skill">DeployHQ</span>
+              <span class="skill">Heroku</span>
+            </div>
           </div>
-        </div>
-        <div class="d-flex flex-direction-row justify-start">
-          <div class="skill-caregory"> Others </div>
-          <div class="skills">
-            <span class="skill">Github</span>
-            <span class="skill">Bitbucket</span>
-            <span class="skill">Gitlab</span>
-            <span class="skill">Jira</span>
-            <span class="skill">Asana</span>
-            <span class="skill">Zenhub</span>
+          <div class="d-flex flex-direction-row justify-start">
+            <div class="skill-caregory"> Others </div>
+            <div class="skills">
+              <span class="skill">Github</span>
+              <span class="skill">Bitbucket</span>
+              <span class="skill">Gitlab</span>
+              <span class="skill">Jira</span>
+              <span class="skill">Asana</span>
+              <span class="skill">Clubhouse</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <section id="work" class="work-area">
+      <div class="container">
+        <h1 class="t-c">Work Experience</h1>
+        <div class="centered line"></div>
+        <div class="experience">
+          <div class="e-item">
+            <h2 class="t-c">Frontend Developer</h2>
+            <ul class="teck-stack">
+              <li>VueJs</li>
+              <li>Angular</li>
+              <li>HTML5</li>
+              <li>SaaS</li>
+            </ul>
+            <div class="responsibility t-c">I've held three different positions in this company. From part-time employee to full time intern and now finally as a full time employee in the data division. I am responsible for the extraction of high quality data from the web. I develop software that extracts information from the unstructured deep web and that converts it into a structured format for further data analysis.</div>
+            <div class="company-period">
+              <div><strong>Company: </strong>HireNinja</div>
+              <div><strong>Period: </strong>November 2015 - Present</div>
+            </div>
+          </div>
+          <div class="e-item">
+            <h2 class="t-c">Freelaunce Web Developer</h2>
+            <ul class="teck-stack">
+              <li>VueJs</li>
+              <li>Angular</li>
+              <li>HTML5</li>
+              <li>SaaS</li>
+            </ul>
+            <div class="responsibility t-c">I've held three different positions in this company. From part-time employee to full time intern and now finally as a full time employee in the data division. I am responsible for the extraction of high quality data from the web. I develop software that extracts information from the unstructured deep web and that converts it into a structured format for further data analysis.</div>
+            <div class="company-period">
+              <div><strong>Company: </strong>Upwork</div>
+              <div><strong>Period: </strong>November 2015 - Present</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="education" class="education-area">
+      <div class="container t-c">
+        <h1 class="t-c">Education</h1>
+        <div class="centered line"></div>
+        <h3>National University of Sciences and Technology (NUST)</h3>
+        <p>BACHELOR OF SOFTWARE ENGINEERING</p>
+        <p><strong>Graduated</strong>: 2015</p>
+      </div>
+    </section>
     <section id="portfolio" class="portfolio-area">
-      <h1 class="t-c">Portfolio</h1>
+      <div class="container">
+        <div class="heading">
+          <h1 class="t-c">Portfolio</h1>
+          <div class="centered line"></div>
+        </div>
+        <div class="portfolio-item">
+          <div class="title">
+            Undolus
+          </div>
+          <div class="description">
+            <div>
+              <div>Tecademics is a US based client that provides digital marketing and training services. I have worked on their digital content and members management platform. In this project i learned how to work with distributed teams and collaborate on same application.</div>
+              <div class="skills">
+                <span class="skill">AngularJs</span>
+                <span class="skill">Laravel</span>
+                <span class="skill">Angular material design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="title">
+            HireNinja
+          </div>
+          <div class="description">
+            <div>
+              <div>Tecademics is a US based client that provides digital marketing and training services. I have worked on their digital content and members management platform. In this project i learned how to work with distributed teams and collaborate on same application.</div>
+              <div class="skills">
+                <span class="skill">VueJs</span>
+                <span class="skill">Laravel</span>
+                <span class="skill">Element UI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="title">
+            Tecademics
+          </div>
+          <div class="description">
+            <div>
+              <div>Tecademics is a US based client that provides digital marketing and training services. I have worked on their digital content and members management platform. In this project i learned how to work with distributed teams and collaborate on same application.</div>
+              <div class="skills">
+                <span class="skill">Angular</span>
+                <span class="skill">Angular Material</span>
+                <span class="skill">Semantic UI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="title">
+            Control My Events
+          </div>
+          <div class="description">
+            <div>
+              <div>Tecademics is a US based client that provides digital marketing and training services. I have worked on their digital content and members management platform. In this project i learned how to work with distributed teams and collaborate on same application.</div>
+              <div class="skills">
+                <span class="skill">Angular</span>
+                <span class="skill">Angular Material</span>
+                <span class="skill">CSS3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="title">
+            Mynd Plan
+          </div>
+          <div class="description">
+            <div>
+              <div>Tecademics is a US based client that provides digital marketing and training services. I have worked on their digital content and members management platform. In this project i learned how to work with distributed teams and collaborate on same application.</div>
+              <div class="skills">
+                <span class="skill">AngularJs</span>
+                <span class="skill">CSS3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="title">
+            Gold Silver
+          </div>
+          <div class="description">
+            <div>
+              <div>Tecademics is a US based client that provides digital marketing and training services. I have worked on their digital content and members management platform. In this project i learned how to work with distributed teams and collaborate on same application.</div>
+              <div class="skills">
+                <span class="skill">Laravel</span>
+                <span class="skill">Javascript</span>
+                <span class="skill">jQuery</span>
+                <span class="skill">CSS3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="title">
+            Luminary Media
+          </div>
+          <div class="description">
+            <div>
+              <div>Tecademics is a US based client that provides digital marketing and training services. I have worked on their digital content and members management platform. In this project i learned how to work with distributed teams and collaborate on same application.</div>
+              <div class="skills">
+                <span class="skill">VueJs</span>
+                <span class="skill">Element UI</span>
+                <span class="skill">Segment</span>
+                <span class="skill">Google Analytics</span>
+                <span class="skill">Branch.io</span>
+              </div>
+            </div>
+        </div>
+      </div>
     </section>
     <section id="contact" class="contact-area">
-      <h1 class="t-c">Get In Touch</h1>
-      <form>
-        <div class="d-flex flex-direction-row justify-space-between">
-          <div class="form-item" style="width: 48%">
-            <input type="text" name="name" placeholder="Name Here*">
-          </div>
-          <div class="form-item" style="width: 4%">
-          </div>
-          <div class="form-item" style="width: 48%">
-            <input type="email" name="email" placeholder="Email Here*">
-          </div>
-        </div>
-        <div class="form-item" style="width: 100%">
-          <textarea rows="4" name="message" placeholder="Message Here*"></textarea>
-        </div>
+      <div class="container">
+        <h1 class="t-c">Let's get In Touch</h1>
+        <div class="centered line"></div>
         <div class="t-c">
-          <button class="send-message">Send Message</button>
+          <div>Need anything built, want to work together or simply want to have a chat?</div>
+          <div>Drop me an e-mail at jordy@kaiwa-projects.com or simply fill out the form below and I will reply to you soon!</div>
         </div>
-      </form>
+        <form>
+          <div class="form-item">
+            <input type="text" name="name" placeholder="John Doe">
+          </div>
+          <div class="form-item">
+            <input type="email" name="email" placeholder="johndoe@mymail.com">
+          </div>
+          <div class="form-item">
+            <textarea rows="10" name="message" placeholder="Hello I am..."></textarea>
+          </div>
+          <div class="t-c">
+            <button class="send-message">Send Message</button>
+          </div>
+        </form>
+      </div>
     </section>
     <script src="./app.js"></script>
   </body>
