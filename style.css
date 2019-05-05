@@ -198,10 +198,8 @@ p{
 */
 
 .about-area{
-  padding-top: 7rem;
-  padding-bottom: 5rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .about-area h1{
   font-weight: 300;
@@ -249,17 +247,18 @@ p{
 }
 .about-area button.download_CV_button{
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: 300;
   padding: 1.2rem 2rem;
   background: #fff;
   box-shadow: none;
-  border: 1px solid #000;
+  border: 2px solid #e76270;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 3rem;
+  color: #e76270;
 }
 .about-area button.download_CV_button:hover{
-  background-color: #000;
+  background-color: #e76270;
   color: #fff;
 }
 
@@ -267,8 +266,8 @@ p{
   Skills Sections Styling goes here
 */
 .skills-area{
-  padding-top: 7rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background: #eeeeee;
 }
 .skills-area h1 {
@@ -327,8 +326,8 @@ p{
   margin: auto;
 }
 .work-area{
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .work-area h1{
   font-weight: 300;
@@ -378,8 +377,8 @@ p{
   margin-bottom: 3rem;
 }
 .education-area{
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background: #eeeeee;
 }
 .education-area h1{
@@ -398,8 +397,8 @@ p{
   text-transform: uppercase;
 }
 .portfolio-area{
-  padding-top: 7rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   overflow-y: auto; 
   position: relative;
   display: flex;
@@ -431,25 +430,54 @@ p{
   align-items: center;
 }
 .portfolio-area .portfolio-item .title {
-  width: 30%;
+  width: 38%;
   padding: 0 3rem;
-  font-size: 36px;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.portfolio-area .portfolio-item .title::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 30%;
+  margin-top: 8px;
+}
+.portfolio-area .portfolio-item .title.undolus::after {
+  background-color: #5b9bbc
+}
+.portfolio-area .portfolio-item .title.hireninja::after {
+  background-color: #f24759
+}
+.portfolio-area .portfolio-item .title.tecademics::after {
+  background-color: #f08b65
+}
+.portfolio-area .portfolio-item .title.cme::after {
+  background-color: #5b9bbc
+}
+.portfolio-area .portfolio-item .title.mynd-plan::after {
+  background-color: #f24759
+}
+.portfolio-area .portfolio-item .title.gold-silver::after {
+  background-color: #f08b65
+}
+.portfolio-area .portfolio-item .title.luminary::after {
+  background-color: #5b9bbc
 }
 .portfolio-area .portfolio-item .description{
-  width: 70%;
+  width: 62%;
   padding: 0 3rem;
+}
+.portfolio-area .description .skills {
+  margin-top: 0.75rem;
 }
 .portfolio-area .description .skills .skill{
   display: inline-block;
   padding: 0.5rem 1rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin: 0.5rem 1rem 0.5rem 0;
   border: 1px solid #000;
   border-radius: 5px;
 }
-
 .contact-area{
   width: 100%;
   height: calc(100vh - 76px);
@@ -493,16 +521,18 @@ p{
   font-size: 1.2rem;
   font-weight: bold;
   padding: 1.2rem 2rem;
-  background: #5b9bbc;
+  background: transparent;
   color: #fff;
   box-shadow: none;
-  border: 1px solid #5b9bbc;
+  border: 2px solid #5b9bbc;
   border-radius: 5px;
   cursor: pointer;
   font-weight: 300;
+  color: #5b9bbc;
 }
 .contact-area form .send-message:hover{
-  border-color: #fff;
+  background: #5b9bbc;
+  color: #fff;
 }
 .active {
   text-decoration: underline !important;
