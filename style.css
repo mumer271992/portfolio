@@ -356,7 +356,8 @@ p{
   margin-left: -1em;
 }
 .work-area .experience .e-item {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
 }
 .work-area .experience .e-item::after {
   content: '';
@@ -368,12 +369,13 @@ p{
 }
 .work-area .experience .e-item .responsibility {
   margin-top: 36px;
-  line-height: 20px;
+  line-height: 22px;
 }
 .work-area .experience .e-item .company-period {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 1.5rem;
   margin-bottom: 3rem;
 }
 .education-area{
