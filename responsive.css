@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+  .portfolio-area .portfolio-item .title {
+    width: 15%;
+    padding: 0 1.5rem;
+    font-size: 22px;
+  }
+  .portfolio-area .description .skills .skill {
+    margin: 0.5rem 0.7rem 0.5rem 0;
+  }
+  .portfolio-area .portfolio-item {
+    padding: 3rem 0 0 0;
+  }
+  .portfolio-area .portfolio-item:last-child {
+    padding: 3rem 0;
+  }
+  .contact-area form {
+    width: 84%;
+  }
+}
+@media (max-width: 567px) {
+  .container {
+    width: 84%;
+  }
+}

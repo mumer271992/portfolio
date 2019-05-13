@@ -31,9 +31,10 @@ p{
   Utility styling goes here
 */
 .container{
-  width: 100%;
-  max-width: 1080px;
+  width: 92%;
+  max-width: 1322px;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .m-a{
