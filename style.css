@@ -184,6 +184,18 @@ p{
   background-color: #5b9bbc;
   margin: auto;
 }
+.hero-area button.download_CV_button{
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 1rem 2rem;
+  background: #e76270;
+  box-shadow: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 3rem;
+  color: #fff;
+}
 
 @keyframes jumpy {
   0% {
