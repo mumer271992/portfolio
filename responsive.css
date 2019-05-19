@@ -46,6 +46,9 @@
   .hero-area {
     height: calc(100vh - 10px);
   }
+  .hero-area .hero-content {
+    margin-top: -40%;
+  }
   .about-area .d-flex{
     flex-direction: column;
   }
