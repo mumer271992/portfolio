@@ -1,8 +1,24 @@
+@media (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+
 @media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .skills-area .skills .skill {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
   .portfolio-area .portfolio-item .title {
     width: 15%;
-    padding: 0 1.5rem;
+    padding: 0;
     font-size: 22px;
+  }
+  .portfolio-area .portfolio-item .description {
+    width: 70%;
   }
   .portfolio-area .description .skills .skill {
     margin: 0.5rem 0.7rem 0.5rem 0;
@@ -18,7 +34,46 @@
   }
 }
 @media (max-width: 567px) {
+  html {
+    font-size: 12px;
+  }
+  body {
+    font-size: 1.25rem;
+  }
   .container {
     width: 84%;
+  }
+  .hero-area {
+    height: calc(100vh - 10px);
+  }
+  .about-area .d-flex{
+    flex-direction: column;
+  }
+  .about-area .desc, .about-area .contact-info {
+    width: 100%;
+  }
+  .about-area .contact-info .email, .about-area .contact-info .skype, .about-area .contact-info .phone {
+    flex-direction: row;
+  }
+  .header-area .hide-on-xs {
+    display: none;
+  }
+  .skills-area .d-flex {
+    flex-direction: column;
+  }
+  .skills-area .skill-caregory, .skills-area .skills {
+    width: 100%;
+  }
+  .portfolio-area .portfolio-item {
+    flex-direction: column;
+  }
+  .portfolio-area .portfolio-item .title {
+    padding-bottom: 1rem;
+  }
+  .portfolio-area .portfolio-item .title, .portfolio-area .portfolio-item .description {
+    width: 100%;
+  }
+  .contact-area {
+    height: calc(100vh - 10px);
   }
 }

@@ -278,6 +278,9 @@ p{
   padding: 1rem 0;
   align-items: center;
 }
+.skills-area .skills-sec {
+  margin-top: 5rem;
+}
 .skills-area .skill-caregory{
   width: 20%;
   font-size: 1.5rem;
