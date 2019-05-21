@@ -184,7 +184,8 @@ p{
   background-color: #5b9bbc;
   margin: auto;
 }
-.hero-area button.download_CV_button{
+.hero-area a.download_CV_button{
+  display: inline-block;
   font-size: 1.2rem;
   font-weight: 300;
   padding: 1rem 2rem;
@@ -195,6 +196,7 @@ p{
   cursor: pointer;
   margin-top: 3rem;
   color: #fff;
+  text-decoration: none;
 }
 
 @keyframes jumpy {
@@ -258,7 +260,8 @@ p{
   background-color: #fff;
   color: #808080;
 }
-.about-area button.download_CV_button{
+.about-area a.download_CV_button{
+  display: inline-block;
   font-size: 1.2rem;
   font-weight: 300;
   padding: 1.2rem 2rem;
@@ -270,7 +273,7 @@ p{
   margin-top: 3rem;
   color: #e76270;
 }
-.about-area button.download_CV_button:hover{
+.about-area a.download_CV_button:hover{
   background-color: #e76270;
   color: #fff;
 }
